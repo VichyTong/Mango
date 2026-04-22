@@ -1,0 +1,19 @@
+# Evaluation Configuration
+# This file contains configurable parameters for evaluation scripts
+
+# Selector parameters
+selector:
+  thompson_sampling:
+    default_budget_per_url: 10
+
+# Navigation parameters
+navigation:
+  total_budget: 100  # Total budget for selector
+  max_iterations: 10  # Maximum number of URL exploration iterations
+
+# URL preprocessing parameters (optional, for future extension)
+preprocessing:
+  google_search:
+    max_urls: 10
+  random_selection:
+    max_urls: 10

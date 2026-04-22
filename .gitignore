@@ -1,0 +1,37 @@
+__pycache__/
+.claude
+CLAUDE.md
+
+# Cache directories
+.cache/
+examples
+
+# Environment variables and secrets
+.env
+
+# Temporary files
+.tmp/
+test*
+logs
+
+*.json
+ROOT_URL.txt
+evaluate_*
+run_*
+*.log
+*.zip
+
+evaluation/baselines/Agent-E
+evaluation/baselines/AgentOccam
+evaluation/baselines/AgentOccam-Trajectories
+evaluation_results/
+output/
+evaluation/scripts/webvoyager/
+analysis
+figure
+evaluation_results_back/
+evaluation/scripts/generate_action_success_tradeoff_figures.py
+evaluation/scripts/generate_cumulative_success_curve.py
+paper/
+portable_figures/
+*.jsonl

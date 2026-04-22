@@ -1,0 +1,1 @@
+from .main import get_google_search_results

@@ -1,0 +1,40 @@
+# Core agent framework
+openai-agents
+openai
+litellm
+
+# Web crawling and browser automation
+crawl4ai
+playwright
+
+# BM25 and text processing
+rank-bm25
+PyStemmer
+jieba
+beautifulsoup4
+requests
+
+# Embedding-based scoring (optional, used by --scoring-method embedding)
+sentence-transformers
+scikit-learn
+numpy
+
+# LLM provider SDKs
+google-genai
+
+# Dataset loading
+datasets
+
+# Evaluation
+langchain
+langchain_openai
+tqdm
+python-dotenv
+
+# WebWalker baseline
+qwen-agent
+streamlit
+json5
+Pillow
+aiohttp
+tenacity
